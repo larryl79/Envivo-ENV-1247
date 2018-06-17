@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<device name="Envivo ENV-1274" author="Larry" type="midi" decks="2" vid="0x5131" pid="0x2007" Description="Envivo ENV-1274" version="800" decks="2" >
+	<led note="0x3b" name="LED_CUE_LEFT" default="CUE_LEFT" deck="1" />
+	<led note="0x42" name="LED_CUE_RIGHT" default="CUE_RIGHT" deck="2" />
+	<led note="0x4a" name="LED_PLAY_LEFT" default="PLAY_LEFT" deck="1" />
+	<led note="0x4c" name="LED_PLAY_RIGHT" default="PLAY_RIGHT" deck="2" />
+	<led note="0x48" name="LED_SCRATCH_LEFT" default="SCRATCH_LEFT" deck="1" />
+	<led note="0x35" name="LED_SCRATCH_RIGHT" default="SCRATCH_RIGHT" deck="2" />
+	<led note="0x40" name="LED_REV_LEFT" default="REV_LEFT" deck="1" />
+	<led note="0x47" name="LED_REV_RIGHT" default="REV_RIGHT" deck="2" />
+	<led note="0x33" name="LED_SYNC_LEFT" default="SYNC_LEFT" deck="1" />
+	<led note="0x3c" name="LED_SYNC_RIGHT" default="SYNC_RIGHT" deck="2" />
+
+	<button note="0x4A" name="PLAY_LEFT" deck="1" />
+	<button note="0x4C" name="PLAY_RIGHT" deck="2" />
+	<button note="0x3B" name="CUE_LEFT" deck="1" />
+	<button note="0x42" name="CUE_RIGHT" deck="2" />
+	<button note="0x4B" name="LOAD_LEFT" deck="1" />
+	<button note="0x34" name="LOAD_RIGHT" deck="2" />
+	<button note="0x48" name="SCRATCH_LEFT" deck="1" />
+	<button note="0x35" name="SCRATCH_RIGHT" deck="2" />
+	<button note="0x40" name="REV_LEFT" deck="1" />
+	<button note="0x47" name="REV_RIGHT" deck="2" />
+	<button note="0x33" name="SYNC_LEFT" deck="1" />
+	<button note="0x3c" name="SYNC_RIGHT" deck="2" />
+	<button note="0x44" name="PITCH_DOWN_LEFT" deck="1" />
+	<button note="0x46" name="PITCH_DOWN_RIGHT" deck="2" />
+	<button note="0x43" name="PITCH_UP_LEFT" deck="1" />
+	<button note="0x45" name="PITCH_UP_RIGHT" deck="2" />
+	<button note="0x4F" name="BROWSER" deck="2" />
+	<button note="0x0D" name="FOLDER_OUT" deck="2" />
+
+	<slider cc="0x08" name="VOLUME_LEFT" deck="1" min="0x00" max="0x7f" />
+	<slider cc="0x09" name="VOLUME_RIGHT" deck="2" min="0x00" max="0x7f" />
+	<slider cc="0x10" name="TREBLE_LEFT" inverse="yes" min="0x0" max="0x7f"/>
+	<slider cc="0x11" name="TREBLE_RIGHT" deck="2" min="0x00" max="0x7f" />
+	<slider cc="0x14" name="BASS_LEFT" inverse="yes" min="0x0" max="0x7f"/>
+	<slider cc="0x15" name="BASS_RIGHT" deck="2" min="0x00" max="0x7f" />
+	<slider cc="0x17" name="MASTER_VOLUME" min="0x0" max="0x7f"/>
+	<slider cc="0x0A" name="CROSSFADER" inverted="yes" min="0x0" max="0x7f"/>
+	<slider cc="0x1A" name="BROWSER_SCROLL" min="0x01" max="0x7f"/>
+
+	<jog cc="0x19" zero="0x0" full="300" name="JOG_LEFT" deck="1" />
+	<jog cc="0x18" zero="0x0" full="300" name="JOG_RIGHT" deck="2" />
+
+</device>

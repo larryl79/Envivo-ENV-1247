@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapper device="SIMPLE_MIDI" author="Atomix Productions" description="Simple MIDI wrapper" version="605" date="16/06/2018" priority="-10">
+  <map value="MIDI_CLOCK" action="on" />
+  <map value="0-59" action="deck 1 cue_button &amp; led cue on" />
+  <map value="0-74" action="deck 1 play_pause " />
+  <map value="0-67" action="deck 1 pitch_slider +2%" />
+  <map value="0-68" action="deck 1 pitch_slider -2%" />
+  <map value="0-CC25" action="deck left param_greater 50% ? deck left jogwheel -1% : deck left jogwheel +1%" />
+  <map value="0-CC9" action="deck 2 volume" />
+  <map value="0-76" action="deck 2 play_pause" />
+  <map value="0-51" action="deck 1 sync" />
+  <map value="0-60" action="deck 2 sync" />
+  <map value="0-CC10" action="param_invert &amp; crossfader_slider" />
+  <map value="0-CC8" action="deck 1 volume" />
+  <map value="0-CC23" action="master_volume" />
+  <map value="0-79" action="browser_folder" />
+  <map value="0-CC26" action="param_greater 50% ? browser_scroll -1 : browser_scroll +1" />
+  <map value="0-CC16" action="deck 1 eq_high" />
+  <map value="0-CC20" action="deck 1 eq_low" />
+  <map value="0-CC21" action="deck 2 eq_high" />
+  <map value="0-CC17" action="deck 2 eq_low" />
+  <map value="0-70" action="deck 2 pitch_slider -2%" />
+  <map value="0-69" action="deck 2 pitch_slider +2%" />
+  <map value="0-72" action="deck 1 smart_scratch &amp; on 0x06" />
+  <map value="0-64" action="deck 1 reverse" />
+  <map value="0-71" action="deck 2 reverse" />
+  <map value="0-CC24" action="deck right param_greater 50% ? deck right jogwheel -1% : deck right jogwheel +1%" />
+  <map value="0-75" action="deck left load" />
+  <map value="0-52" action="deck right load" />
+  <map value="0-13" action="browser_folder -1" />
+  <map value="0-66" action="deck 2 cue" />
+</mapper>

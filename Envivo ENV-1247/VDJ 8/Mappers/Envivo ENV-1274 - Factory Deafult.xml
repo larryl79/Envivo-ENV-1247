@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapper device="Envivo ENV-1274" version="802" date="2018-06-17">
+	<map value="PLAY_LEFT" action="deck left play_pause" />
+	<map value="JOG_RIGHT" action="deck right jogwheel" />
+	<map value="JOG_LEFT" action="deck left jogwheel" />
+	<map value="PLAY_RIGHT" action="deck right play_pause" />
+	<map value="CUE_RIGHT" action="deck right cue_button" />
+	<map value="CUE_LEFT" action="deck left cue_button" />
+	<map value="CROSSFADER" action="crossfader" />
+	<map value="VOLUME_LEFT" action="deck left level" />
+	<map value="VOLUME_RIGHT" action="deck right level" />
+	<map value="BASS_LEFT" action="deck left eq_low" />
+	<map value="BASS_RIGHT" action="deck right eq_low" />
+	<map value="BROWSER" action="browser_enter" />
+	<map value="BROWSER_SCROLL" action="param_greater 50% ? browser_scroll -1 : browser_scroll +1" />
+	<map value="LOAD_LEFT" action="deck left load" />
+	<map value="LOAD_RIGHT" action="deck right load &amp; deck right pause " />
+	<map value="MASTER_VOLUME" action="master_volume" />
+	<map value="PITCH_DOWN_LEFT" action="deck left pitch -1" />
+	<map value="PITCH_DOWN_RIGHT" action="deck right pitch -1" />
+	<map value="PITCH_UP_LEFT" action="deck left pitch +1" />
+	<map value="PITCH_UP_RIGHT" action="deck right pitch +1" />
+	<map value="REV_LEFT" action="deck left reverse" />
+	<map value="REV_RIGHT" action="deck right reverse" />
+	<map value="TREBLE_LEFT" action="deck left eq_high" />
+	<map value="TREBLE_RIGHT" action="deck right eq_high" />
+	<map value="SYNC_LEFT" action="deck left sync &amp; blink deck left get_beat_num" />
+	<map value="SYNC_RIGHT" action="deck right sync &amp; blink deck right get_beat_num" />
+	<map value="SCRATCH_LEFT" action="deck left toggle scratch &amp; toggle LED_SCRATCH_LEFT" />
+	<map value="SCRATCH_RIGHT" action="deck right toggle scratch &amp; toggle LED_SCRATCH_RIGHT" />
+	<map value="LED_PLAY_LEFT" action="loaded ? play ? on : cue ? off : on blink : off" />
+	<map value="LED_PLAY_RIGHT" action="loaded ? play ? on : cue ? off : on blink : off" />
+	<map value="FOLDER_OUT" action="browser_window +1" />
+</mapper>

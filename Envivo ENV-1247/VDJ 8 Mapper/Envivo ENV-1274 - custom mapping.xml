@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapper device="SIMPLE_MIDI_20785_8199" version="802" date="2018-06-16">
+	<map value="0-BUTTON74" action="deck left play_pause" />
+	<map value="0-JOG24" action="deck right jogwheel" />
+	<map value="0-JOG25" action="deck left  jogwheel" />
+	<map value="0-BUTTON25" action="deck left cue_button" />
+	<map value="0-BUTTON76" action="deck right play_pause" />
+	<map value="0-BUTTON66" action="deck right cue_button" />
+	<map value="0-BUTTON59" action="deck left cue_button &amp; led cue" />
+	<map value="0-SLIDER16" action="deck left eq_high" />
+	<map value="0-SLIDER20" action="deck left eq_low" />
+	<map value="0-SLIDER8" action="deck left level" />
+	<map value="0-SLIDER9" action="deck right level" />
+	<map value="0-SLIDER21" action="deck right eq_low" />
+	<map value="0-SLIDER17" action="deck right eq_high" />
+	<map value="0-SLIDER23" action="master_volume" />
+	<map value="0-SLIDER10" action="param_invert &amp; crossfader" />
+	<map value="0-BUTTON79" action="browser_folder" />
+	<map value="0-SLIDER26" action="param_greater 50% ? browser_scroll -1 : browser_scroll +1" />
+	<map value="0-BUTTON75" action="deck left load" />
+	<map value="0-BUTTON52" action="deck right load" />
+	<map value="0-BUTTON51" action="deck left sync" />
+	<map value="0-BUTTON60" action="deck right sync" />
+	<map value="0-BUTTON13" action="browser_window +1" />
+	<map value="0-BUTTON68" action="deck left pitch -1" />
+	<map value="0-BUTTON67" action="deck left pitch +1" />
+	<map value="0-BUTTON70" action="deck right pitch -1" />
+	<map value="0-BUTTON69" action="deck right pitch +1" />
+	<map value="0-BUTTON64" action="deck left reverse" />
+	<map value="0-BUTTON71" action="deck right reverse" />
+	<map value="0-BUTTON72" action="loaded ? pause ? blink : play" />
+</mapper>
